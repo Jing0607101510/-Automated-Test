@@ -1,0 +1,21 @@
+count = 100
+speed = 1.0
+start data >>
+
+LaunchActivity(com.netease.yanxuan, com.netease.yanxuan.module.mainpage.activity.MainPageActivity)
+UserWait(1000)
+
+DispatchPointer(10000, 10000, 0, 200, 200, 0, 0 ,0 ,0, 0, 0, 0)
+DispathcPointer(10000, 10000, 1, 200, 200, 0, 0, 0, 0, 0, 0, 0)
+UserWait(100)
+
+DispatchPress(KEYCODE_2)
+UserWait(100)
+DispatchPress(KEYCODE_5)
+UserWait(100)
+DispatchPress(KEYCODE_0)
+UserWait(100)
+
+DispatchPress(KEYCODE_ENTER)
+UserWait(100)
+
